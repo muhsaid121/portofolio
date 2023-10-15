@@ -1,0 +1,836 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header start -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primer block py-6"
+              >ProfilKu</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 origin-top-left"
+              ></span>
+              <span class="hamburger-line"></span>
+              <span
+                class="hamburger-line transition duration-300 origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primer"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primer"
+                    >Tentang Saya</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portofolio"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primer"
+                    >Fortofolio</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#education"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primer"
+                    >Pendidikan</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#artickle"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primer"
+                    >Artikel</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primer"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header end -->
+    <!-- Hero Section start-->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primer md:text-xl">
+              Halo semua 👋, saya
+              <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl"
+                >Muhammad Said</span
+              >
+            </h1>
+            <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">
+              Guru Sekolah Dasar <span class="text-dark">|</span>
+              <span class="text-secondary">SD YPS Singkole</span>
+            </h2>
+            <p class="font-medium text-slate-500 mb-10 leading-relaxed">
+              Masalah yang rumit adalah kumpulan masalah-masalah yang sederhana,
+              Bentangkan dan urai satu persatu!
+              <span class="text-dark font-semibold">[Said-2023]</span>
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-primer py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              >Hubungi Saya</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-9 lg:right-0">
+              <img
+                src="dist/img/said.png"
+                alt="Muhammad Said"
+                class="max-w-full mx-auto"
+              />
+              <span
+                class="absolute -bottom-10 -z-10 left-1/2 -translate-x-1/2 md:scale-125"
+              >
+                <svg
+                  width="400"
+                  height="400"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#14b8ab"
+                    d="M38.9,-22.2C42.6,-1.3,32.4,14.6,16.9,26.6C1.5,38.6,-19.1,46.6,-31.7,38.6C-44.4,30.7,-49,6.6,-42.3,-18.3C-35.7,-43.3,-17.9,-69.1,-0.1,-69.1C17.6,-69,35.2,-43.1,38.9,-22.2Z"
+                    transform="translate(100 100) scale(1.1)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section end -->
+    <!-- About section start -->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primer text-lg mb-3">
+              Tentang Saya
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
+              Ayo berkenalan
+            </h2>
+            <p class="text-justify">
+              <span class="font-bold">Muhammad Said,</span> Anak kedua dari enam
+              bersaudara pasangan Mansyur dan Becce B lahir di Dusun Lombo,
+              Kabupaten Pinrang. Pendidikan dimulai di SD Negeri 270 Kandoka
+              (1994-2000). Pada tahun 2020 melanjutkan pendidikan di SLTP Negeri
+              2 Lembang. Selama proses pendidikan ikut aktif dalam kegiatan OSIS
+              maupun Pramuka. Tahun 2003 melanjutkan pendidikan di SMA YP PGRI 3
+              Makassar. Setelah menyelesaikan jenjang pendidikan menengah di
+              terima sebagai mahasiswa Jurusan Matematika FMIPA UNM melalui
+              Jalur Seleksi Penerimaan Mahasiswa Baru (SPMB). Selama berstatus
+              mahasiswa penulis aktif di LDK Fosdik Al-Umdah dan terdaftar
+              sebagai asisten laboratorium komputer Matematika 01 FMIPA UNM
+              (2007 – 2010). Tahun 2010 diterima sebagai guru di SD YPS Singkole
+              Sorowako, Luwu Timur sebagai utusan pihak kampus yang berlangsung
+              selama 2 tahun sebelum menjadi guru tetap di bawah Yayasan Sekum
+              YPS sampai sekarang. Tahun 2018 melanjutkan pendidikan S2 pada
+              prodi Pendidikan Matematika di Universitas Cokroaminoto Palopo.
+              Saat yang sama mengikuti pendidikan profesi guru sekolah dasar di
+              Universitas Cenderawasi, Jayapura. Beberapa karya penulis yang
+              pernah di publikasi pada jurnal, seminar nasional dan
+              internasional, yaitu: (1) Peningkatan Hasil Belajar Matematika
+              Siswa dengan Pendekatan RESIK pada Operasi Hitung Pecahan Biasa
+              yang dipresentasikan 1 Desember 2018 pada Seminar Nasional
+              Universitas Cokroaminoto Palopo, (2) The Influence of Learning
+              Motivation and Family Environment Toward Student’s Mathematics
+              Proviciency of Local Affected Society in YPS Singkole Primary
+              School Academic Year 2018/2019 yang dipresentasikan 13-14
+              September 2019 pada International Conference on Natural and Social
+              Sciences (ICONSS). (3) Pengembangan Media Pembelajaran Matematika
+              Bangun Ruang Berbasis Aplikasi Android Untuk Menumbuhkan Motivasi
+              Belajar Siswa terbit pada Cokroaminoto Journal of Primary
+              Education.
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              Mari berteman
+            </h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+              Kawan-kawan eduClass470.com yang ingin komunikasi, silahkan
+              mengunjungi akun sosial media kami!
+            </p>
+            <div class="flex items-center">
+              <!-- Youtube -->
+              <a
+                href="https://www.youtube.com/@muhammadsaid2091"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-slate-300 text-slate-300 hover:border-primer hover:bg-primer hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>YouTube</title>
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                  />
+                </svg>
+              </a>
+              <!-- facebook -->
+              <a
+                href="https://www.facebook.com/muhammad.said.92"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-slate-300 text-slate-300 hover:border-primer hover:bg-primer hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Facebook</title>
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  />
+                </svg>
+              </a>
+              <!-- Instagram -->
+              <a
+                href="https://www.instagram.com/saidmatics"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-slate-300 text-slate-300 hover:border-primer hover:bg-primer hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+              <!-- Email -->
+              <a
+                href="https://www.saidmatics@gmail.com"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-slate-300 text-slate-300 hover:border-primer hover:bg-primer hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Gmail</title>
+                  <path
+                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section end -->
+    <section id="education" class="pt-36 pb-32 text-center bg-slate-700">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16">
+            <h4 class="font-semibold text-lg text-primer mb-2 text-center">
+              Pendidikan
+            </h4>
+            <h2
+              class="font-bold text-white text-center text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              Riwayat Pendidikan
+            </h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              (1994-2000)<br />SD Negeri 270 Kandoka, Kabupaten Pinrang.
+            </p>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              (2000-2003)<br />SLTP Negeri 2 Lembang, Kabupaten Pinrang.
+            </p>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              (2003-2006)<br />SMA YPS PGRI 3 Disamakan Makassar, Sulawesi
+              Selatan.
+            </p>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              (2006-2010)<br />S1 Pendidikan Matematika FMIPA Universitas Negeri
+              Makassar.
+            </p>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              (2018-2020)<br />Magister Pendidikan Matematika Universitas
+              Cokroaminoto Palopo.
+            </p>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              (2020)<br />Pendidikan Profesi Guru Sekolah Dasar Universitas
+              Cenderawasih, Papua.
+            </p>
+          </div>
+        </div>
+        <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <a
+              href="#"
+              class="max-w-[70px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 lg:mx-8"
+            >
+              <img src="dist/img/education/1.svg" alt="UNM" />
+            </a>
+            <a
+              href="#"
+              class="max-w-[70px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 lg:mx-8"
+            >
+              <img src="dist/img/education/5.png" alt="UNCP" />
+            </a>
+            <a
+              href="#"
+              class="max-w-[70px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 lg:mx-8"
+            >
+              <img src="dist/img/education/6.png" alt="UNCEN" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Education section end -->
+    <!-- Portofolio section start -->
+    <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primer mb-2">Portofolio</h4>
+            <h2
+              class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              Project Terbaru
+            </h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              "Guru yang berhenti belajar, sebaiknya berhenti mengajar". Kalimat
+              yang tidak asing lagi kita dengarkan dan baca diberbagai
+              kesempatan. Lanjutan dari belajar ada karya. Karena itu kami
+              sajikan beberapa hasil karya kami berikut.
+            </p>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
+        >
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/1.png"
+                alt="Android Studio"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Bangun ruang berbasis
+              <span span class="italic">android</span>
+            </h3>
+            <p class="font-medium text-base text-secondary text-justify mb-3">
+              Produk akhir media pembelajaran bangun ruang versi 2.0MS merupakan
+              hasil dari pengembangan media menggunakan software Android Studio
+              3.5. Media pembelajaran bangun ruang memuat materi pokok
+              sifat-sifat bangun ruang, jaring-jaring bangun ruang, dan volume
+              bangun ruang yang terdiri atas bangun ruang prisma, limas, tabung,
+              kerucut, dan bola. Media pembelajaran dapat dijalankan pada gawai
+              Android. Media pembelajaran ini dapat dimanfaatkan dalam proses
+              belajar mengajar, juga sebagai media belajar mandiri yang tidak
+              terikat ruang dan waktu, kapan saja dan dimana saja bisa
+              digunakan.
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-primer py-2 px-8 rounded-lg hover:shadow-md hover:opacity-80 transition duration-300 ease-in-out"
+              >Silahkan pasang aplikasi!</a
+            >
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/2.JPEG"
+                alt="Media Pembelajaran"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Website pembelajaran matematika
+            </h3>
+            <p class="font-medium text-base text-secondary text-justify mb-3">
+              <span class="font-bold text-dark">eduClass</span
+              ><span class="font-bold text-yellow-800">470.com</span> merupakan
+              website yang kami peruntukkan khusus untuk mewadahi pembelajaran
+              berbasis digital sebagai wujud layanan sumber belajar bagi peserta
+              didik dan sumber literasi bagi tenaga pengajar. Media ini kami
+              utamakan untuk menyajikan pembelajaran Matematika khususnya
+              matematika pada jenjang pendidikan sekolah dasar.
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-primer py-2 px-8 rounded-lg hover:shadow-md hover:opacity-80 transition duration-300 ease-in-out"
+              >Silahkan kunjungi website kami!</a
+            >
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/3.jpeg"
+                alt="Media Pembelajaran"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              LKPD Matematika Kelas 4
+            </h3>
+            <p class="font-medium text-base text-secondary text-justify mb-3">
+              Kurikulum merdeka memberi kesempatan kepada tenaga pengajar untuk
+              menyusun sendiri tujuan pembelajaran. Lembar kerja peserta didik
+              (LKPD) bertujuan untuk mempercepat pencapaian tujuan pembelajaran.
+              Oleh karena itu, LKPD yang digunakan sebaiknya dikembangkan secara
+              mandiri. berikut kami bagikan LKPD yang memuat materi matematika
+              kelas 4 kurikulum merdeka meliputi, bilangan cacah, aljabar dan
+              pola (gambar dan bilangan), pecahan, pengukuran, geometri,
+              analisis data dan peluang.
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-primer py-2 px-8 rounded-lg hover:shadow-md hover:opacity-80 transition duration-300 ease-in-out"
+              >Silahkan unduh LKPD</a
+            >
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/4.png"
+                alt="Media Pembelajaran"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Perkalian model matriks
+            </h3>
+            <p class="font-medium text-base text-secondary mb-5">
+              Perkalian model matriks (PMM) merupakan bentuk permaianan
+              perkalian matematika. Dinamakan model matrik karena disusun dalam
+              bentuk baris dan kolom. Permainan perkalian model matrik dapat
+              disajikan dalam bentuk aplikasi berbasis komputer dan peraga
+              pembelajaran secara langsung. Aplikasi berbasis komputer ini kami
+              kembangkan menggunakan visual studio.
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-primer py-2 px-8 rounded-lg hover:shadow-md hover:opacity-80 transition duration-300 ease-in-out"
+              >Silahkan unduh apk PMM</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portofolio section end -->
+
+    <!-- Artikel Section Start -->
+    <section id="artickle" class="pt-36 pb-32 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primer mb-2">Artikel</h4>
+            <h2
+              class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              Tulisan Terkini
+            </h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              autem vel pariatur cupiditate.
+            </p>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+              <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img
+                  src="https://source.unsplash.com/360x200?programing"
+                  alt="Programing"
+                  class="w-full"
+                />
+                <div class="py-8 px-6">
+                  <h3>
+                    <a
+                      href="#"
+                      class="block mb-3 font-semibold text-xl text-dark hover:text-primer truncate"
+                      >Tips Belajar Programming</a
+                    >
+                  </h3>
+                  <p class="font-medium text-base text-secondary mb-6">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Ab, voluptas asperiores itaque rerum magni aliquam minus
+                    quasi.
+                  </p>
+                  <a
+                    href="#"
+                    class="font-medium text-sm text-white bg-primer py-2 px-4 rounded-lg hover:opacity-80"
+                    >Baca Selengkapnya</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+              <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img
+                  src="https://source.unsplash.com/360x200?mathematics"
+                  alt="Programing"
+                  class="w-full"
+                />
+                <div class="py-8 px-6">
+                  <h3>
+                    <a
+                      href="#"
+                      class="block mb-3 font-semibold text-xl text-dark hover:text-primer truncate"
+                      >Tips Belajar Matematika</a
+                    >
+                  </h3>
+                  <p class="font-medium text-base text-secondary mb-6">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Ab, voluptas asperiores itaque rerum magni aliquam minus
+                    quasi.
+                  </p>
+                  <a
+                    href="#"
+                    class="font-medium text-sm text-white bg-primer py-2 px-4 rounded-lg hover:opacity-80"
+                    >Baca Selengkapnya</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+              <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img
+                  src="https://source.unsplash.com/360x200?write"
+                  alt="Programing"
+                  class="w-full"
+                />
+                <div class="py-8 px-6">
+                  <h3>
+                    <a
+                      href="#"
+                      class="block mb-3 font-semibold text-xl text-dark hover:text-primer truncate"
+                      >Tips Belajar Menulis</a
+                    >
+                  </h3>
+                  <p class="font-medium text-base text-secondary mb-6">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Ab, voluptas asperiores itaque rerum magni aliquam minus
+                    quasi.
+                  </p>
+                  <a
+                    href="#"
+                    class="font-medium text-sm text-white bg-primer py-2 px-4 rounded-lg hover:opacity-80"
+                    >Baca Selengkapnya</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Artikel Section End -->
+    <!-- COntact Section Start -->
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primer mb-2">Kontak</h4>
+            <h2
+              class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              Hubungi Kami
+            </h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              autem vel pariatur cupiditate.
+            </p>
+          </div>
+        </div>
+        <form action="">
+          <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+              <label for="name" class="text-base font-bold text-primer"
+                >Nama</label
+              >
+              <input
+                type="text"
+                id="name"
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:border-primer"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="email" class="text-base font-bold text-primer"
+                >Email</label
+              >
+              <input
+                type="text"
+                id="email"
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:border-primer"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="message" class="text-base font-bold text-primer"
+                >Pesan</label
+              >
+              <textarea
+                type="text"
+                id="message"
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:border-primer h-32"
+              ></textarea>
+            </div>
+            <div class="w-full px-4">
+              <button
+                class="text-base font-semibold text-white bg-primer py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500"
+              >
+                Kirim
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- COntact Section End -->
+    <!-- Footer star -->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+            <img src="dist/img/logo.png" alt="logo" width="75px" />
+            <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+            <p>saidmatics@gmail.com</p>
+            <p>Jl. G. Semeru F.334</p>
+            <p>Sorowako</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">
+              Ketegori Tulisan
+            </h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primer mb-3"
+                  >Pendidikan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primer mb-3"
+                  >Matematika Dasar</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primer mb-3"
+                  >Artikel Ilmiah</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="#home"
+                  class="inline-block text-base hover:text-primer mb-3"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="inline-block text-base hover:text-primer mb-3"
+                  >Tentang Saya</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portofolio"
+                  class="inline-block text-base hover:text-primer mb-3"
+                  >Portofolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#education"
+                  class="inline-block text-base hover:text-primer mb-3"
+                  >Pendidikan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#artickle"
+                  class="inline-block text-base hover:text-primer mb-3"
+                  >Artikel</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="inline-block text-base hover:text-primer mb-3"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full pt-10 border-t border-slate-700">
+          <div class="flex items-center justify-center mb-5">
+            <!-- Youtube -->
+            <a
+              href="https://www.youtube.com/@muhammadsaid2091"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-slate-300 text-slate-300 hover:border-primer hover:bg-primer hover:text-white"
+            >
+              <svg
+                role="img"
+                width="20"
+                class="fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>YouTube</title>
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                />
+              </svg>
+            </a>
+            <!-- facebook -->
+            <a
+              href="https://www.facebook.com/muhammad.said.92"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-slate-300 text-slate-300 hover:border-primer hover:bg-primer hover:text-white"
+            >
+              <svg
+                role="img"
+                width="20"
+                class="fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Facebook</title>
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                />
+              </svg>
+            </a>
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/saidmatics"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-slate-300 text-slate-300 hover:border-primer hover:bg-primer hover:text-white"
+            >
+              <svg
+                role="img"
+                width="20"
+                class="fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Instagram</title>
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </a>
+            <!-- Email -->
+            <a
+              href="https://www.saidmatics@gmail.com"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-slate-300 text-slate-300 hover:border-primer hover:bg-primer hover:text-white"
+            >
+              <svg
+                role="img"
+                width="20"
+                class="fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Gmail</title>
+                <path
+                  d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                />
+              </svg>
+            </a>
+          </div>
+          <p class="font-medium text-xs text-slate-500 text-center">
+            Dibuat dengan <span class="text-pink-500">❤️ </span> oleh
+            <a
+              href="https://www.facebook.com/muhammad.said.92"
+              target="_blank"
+              class="font-bold text-primer"
+              >Muhammad Said</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+    <!-- Back to top start -->
+    <a
+      id="to-top"
+      href="#home"
+      class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-full bg-primer p-4 hover:animate-pulse"
+    >
+      <span class="nt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"> </span>
+    </a>
+    <!-- Back to top end -->
+    <script src="dist/js/scrift.js"></script>
+  </body>
+</html>
